@@ -34,11 +34,7 @@ import { TransactionWatcherProvider } from 'contexts/TransactionWatcher'
 import useLocalStorage from 'hooks/useLocalStorage'
 
 import Farm from 'views/Farm'
-import Home from 'views/Home'
-import Vote from 'views/Vote'
-import News from 'views/News'
 import ContributorRewards from './views/ContributorRewards'
-import HowToBuy from './views/HowToBuy'
 
 import createTheme from 'utils/createCustomTheme'
 import graphqlClient from 'utils/graphql'
