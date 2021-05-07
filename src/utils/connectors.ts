@@ -24,5 +24,5 @@ export const walletconnect = new WalletConnectConnector({
 export const walletlink = new WalletLinkConnector({
   url: NETWORK_URL,
   appName: 'Index',
-  appLogoUrl: 'https://index-dao.s3.amazonaws.com/index_owl.png'
+  appLogoUrl: 'https://i.gyazo.com/84605d4b19da6a462727aab2f4723248.png'
 })
