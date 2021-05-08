@@ -18,21 +18,12 @@ export const DefiPulseIndex: ProductToken = {
   tokensetsId: 'dpi',
 }
 
-export const CoinsharesCryptoGoldIndex: ProductToken = {
-  name: 'Coinshares Crypto Gold Index',
-  symbol: 'CGI',
-  address: tokenAddresses.cgiTokenAddress,
-  image: 'https://set-core.s3.amazonaws.com/img/portfolios/coinshares_gold.png',
-  coingeckoId: 'coinshares-gold-and-cryptoassets-index-lite',
-  tokensetsId: 'cgi',
-}
-
 export const IndexToken: ProductToken = {
-  name: 'Index Token',
-  symbol: 'INDEX',
+  name: 'MonoIndex Token',
+  symbol: 'MID',
   address: tokenAddresses.indexTokenAddress,
-  image: 'https://index-dao.s3.amazonaws.com/owl.png',
-  coingeckoId: 'index-cooperative',
+  image: 'https://i.gyazo.com/84605d4b19da6a462727aab2f4723248.png',
+  coingeckoId: '',
   tokensetsId: '',
 }
 
