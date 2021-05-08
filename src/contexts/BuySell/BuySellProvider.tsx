@@ -14,7 +14,6 @@ import {
   getUniswapCallData,
   getUniswapTransactionOptions,
 } from './utils'
-import trackReferral from 'utils/referralApi'
 import { waitTransaction } from 'utils/index'
 import { TransactionStatusType } from 'contexts/TransactionWatcher'
 import { currencyTokens } from 'constants/currencyTokens'
