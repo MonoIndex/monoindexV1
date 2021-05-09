@@ -30,7 +30,6 @@ const WalletModal: React.FC<ModalProps> = ({ isOpen, onDismiss }) => {
   const {
     indexBalance,
     dpiBalance,
-    cgiBalance,
     mviBalance,
     ethfliBalance,
     uniswapEthDpiLpBalance,
@@ -93,11 +92,11 @@ const WalletModal: React.FC<ModalProps> = ({ isOpen, onDismiss }) => {
             <Box row>
               <FancyValue
                 icon={{
-                  alt: 'Owl',
-                  src: 'https://index-dao.s3.amazonaws.com/owl.png',
+                  alt: 'Mono',
+                  src: 'https://i.gyazo.com/84605d4b19da6a462727aab2f4723248.png',
                 }}
                 link={`https://etherscan.io/address/${tokenAddresses.indexTokenAddress}`}
-                label='INDEX balance'
+                label='MonoIndex balance'
                 value={getDisplayBalance(indexBalance)}
               />
             </Box>
@@ -121,18 +120,6 @@ const WalletModal: React.FC<ModalProps> = ({ isOpen, onDismiss }) => {
             <Box row>
               <FancyValue
                 icon={{
-                  alt: 'CGI Icon',
-                  src:
-                    'https://set-core.s3.amazonaws.com/img/portfolios/coinshares_gold.png',
-                }}
-                label='CGI balance'
-                link={`https://etherscan.io/address/${tokenAddresses.cgiTokenAddress}`}
-                value={getDisplayBalance(cgiBalance)}
-              />
-            </Box>
-            <Box row>
-              <FancyValue
-                icon={{
                   alt: 'MVI Icon',
                   src:
                     'https://set-core.s3.amazonaws.com/img/portfolios/mvi.svg',
@@ -142,12 +129,6 @@ const WalletModal: React.FC<ModalProps> = ({ isOpen, onDismiss }) => {
                 value={getDisplayBalance(mviBalance)}
               />
             </Box>
-          </Split>
-          <Spacer />
-          <Separator />
-          <Spacer />
-
-          <Split>
             <Box row>
               <FancyValue
                 icon={{

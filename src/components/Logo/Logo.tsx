@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Logo: React.FC = () => {
   return (
     <StyledLogo to="/">
-      <StyledEmoji src='https://index-dao.s3.amazonaws.com/owl.png' alt="Owl" />
+      <StyledEmoji src='https://i.gyazo.com/84605d4b19da6a462727aab2f4723248.png' alt="mono" />
     </StyledLogo>
   )
 }

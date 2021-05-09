@@ -48,7 +48,6 @@ export const MetaverseIndex: ProductToken = {
 export const productTokensBySymbol = {
   'DPI': DefiPulseIndex,
   'MVI': MetaverseIndex,
-  'CGI': CoinsharesCryptoGoldIndex,
   'ETH2x-FLI': Ethereum2xFlexibleLeverageIndex,
   'INDEX': IndexToken,
 }
@@ -56,7 +55,6 @@ export const productTokensBySymbol = {
 export default [
   DefiPulseIndex,
   MetaverseIndex,
-  CoinsharesCryptoGoldIndex,
   Ethereum2xFlexibleLeverageIndex,
   IndexToken,
 ]
