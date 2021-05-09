@@ -62,37 +62,25 @@ const App: React.FC = () => {
           />
           <Switch>
             <Route exact path='/'>
-              <Home title={'Index - Home'} />
+              <Home title={'MonoIndex - Home'} />
             </Route>
             <Route exact path='/dpi'>
-              <DPI title={'Index - DPI'} />
+              <DPI title={'MonoIndex - DPI'} />
             </Route>
             <Route exact path='/mvi'>
-              <MVI title={'Index - MVI'} />
+              <MVI title={'MonoIndex - MVI'} />
             </Route>
             <Route exact path='/fli'>
-              <FLI title={'Index - FLI'} />
+              <FLI title={'MonoIndex - FLI'} />
             </Route>
-            <Route exact path='/cgi'>
-              <CGI title={'Index - CGI'} />
-            </Route>
-            <Route exact path='/index'>
-              <INDEX title={'Index - Index'} />
-            </Route>
-            <Route exact path='/vote'>
-              <Vote title={'Index - Vote'} />
+            <Route exact path='/mid'>
+              <INDEX title={'MonoIndex - MID'} />
             </Route>
             <Route exact path='/liquidity-mining'>
-              <Farm title={'Index - Liquidity Mining'} />
+              <Farm title={'MonoIndex - Liquidity Mining'} />
             </Route>
             <Route exact path='/rewards'>
-              <ContributorRewards title={'Index - Rewards'} />
-            </Route>
-            <Route path='/news'>
-              <News title={'Index - News'} />
-            </Route>
-            <Route path='/how-to-buy'>
-              <HowToBuy title={'Index - How to Buy'} />
+              <ContributorRewards title={'MonoIndex - Rewards'} />
             </Route>
           </Switch>
         </StyledBackgroundDiv>
