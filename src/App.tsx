@@ -6,7 +6,6 @@ import { ApolloProvider } from '@apollo/client'
 import styled from 'styled-components'
 import 'react-toastify/dist/ReactToastify.css'
 
-import MobileMenu from 'components/MobileMenu'
 import TopBar from 'components/TopBar'
 
 import { MediaQueryProvider } from 'contexts/MediaQuery'
@@ -15,20 +14,9 @@ import { AirdropProvider } from 'contexts/Airdrop'
 import { ExternalAirdropProvider } from 'contexts/ExternalAirdrop'
 import { FarmingProvider } from 'contexts/Farming'
 import { FarmingTwoProvider } from 'contexts/FarmingTwo'
-import { MviStakingRewardsProvider } from 'contexts/MviStakingRewards'
 import { PricesProvider } from 'contexts/Prices'
 import { WalletProvider } from 'contexts/Wallet'
 import { BuySellProvider } from 'contexts/BuySell'
-import { FliTokenMarketDataProvider } from 'contexts/FliTokenMarketData'
-import { FliIndexPortfolioDataProvider } from 'contexts/FliIndexPortfolioData'
-import { DpiTokenMarketDataProvider } from 'contexts/DpiTokenMarketData'
-import { DpiIndexComponentsProvider } from 'contexts/DpiIndexComponents'
-import { CgiTokenMarketDataProvider } from 'contexts/CgiTokenMarketData'
-import { CgiIndexComponentsProvider } from 'contexts/CgiIndexComponents'
-import { MviTokenMarketDataProvider } from 'contexts/MviTokenMarketData'
-import { MviComponentsProvider } from 'contexts/MviComponents'
-import { IndexTokenMarketDataProvider } from 'contexts/IndexTokenMarketData'
-import { SnapshotProposalsProvider } from 'contexts/SnapshotProposals'
 import { TransactionWatcherProvider } from 'contexts/TransactionWatcher'
 
 import useLocalStorage from 'hooks/useLocalStorage'
@@ -118,19 +106,11 @@ const Providers: React.FC = ({ children }) => {
                                   <FliIndexPortfolioDataProvider>
                                     <DpiTokenMarketDataProvider>
                                       <DpiIndexComponentsProvider>
-                                        <CgiTokenMarketDataProvider>
-                                          <CgiIndexComponentsProvider>
                                             <MviTokenMarketDataProvider>
                                               <MviComponentsProvider>
-                                                <IndexTokenMarketDataProvider>
-                                                  <SnapshotProposalsProvider>
                                                     {children}
-                                                  </SnapshotProposalsProvider>
-                                                </IndexTokenMarketDataProvider>
                                               </MviComponentsProvider>
                                             </MviTokenMarketDataProvider>
-                                          </CgiIndexComponentsProvider>
-                                        </CgiTokenMarketDataProvider>
                                       </DpiIndexComponentsProvider>
                                     </DpiTokenMarketDataProvider>
                                   </FliIndexPortfolioDataProvider>
@@ -154,7 +134,7 @@ const Providers: React.FC = ({ children }) => {
 }
 
 const StyledBackgroundDiv = styled.div`
-  background: url(https://index-dao.s3.amazonaws.com/gradient_bg.png);
+  background: url(https://i.gyazo.com/d826aa2361dd4f5dbc9668c9f0e4e386.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
