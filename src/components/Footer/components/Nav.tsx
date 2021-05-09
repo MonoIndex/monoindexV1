@@ -4,10 +4,10 @@ import styled from 'styled-components'
 const Nav: React.FC = () => {
   return (
     <StyledNav>
-      <StyledLink href="https://twitter.com/indexcoop">Twitter</StyledLink>
-      <StyledLink href="https://gov.indexcoop.com">Forum</StyledLink>
-      <StyledLink href="https://discord.gg/RKZ4S3b">Discord</StyledLink>
-      <StyledLink href="https://index-dao.s3.amazonaws.com/index-logo-pack.zip" download>Logos</StyledLink>
+      <StyledLink href="https://twitter.com/0xMono">Twitter</StyledLink>
+      <StyledLink href="">Forum</StyledLink>
+      <StyledLink href="">Discord</StyledLink>
+      <StyledLink href="" download>Logos</StyledLink>
     </StyledNav>
   )
 }
